@@ -12,8 +12,6 @@
 
 <?php
 $value=$_GET["smiley"];
-
-
 ?>
 
 <?php
