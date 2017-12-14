@@ -2,39 +2,42 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="jquery_ui/jquery-ui.min.css">
 <link rel="stylesheet" type="text/css" href="style/mystyle.css">
 <link href="style/mystyle.css" rel="stylesheet" type="text/css">
+<script src="jj/external/jquery/jquery.js"></script>
+<script src="jj/jquery-ui.js"></script>
+<link rel="stylesheet" href="jj/jquery-ui.min.css">
 
 
 <title>Antikmuseet Map</title>
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+<script>var __adobewebfontsappname__="dreamweaver"</script>
+<script src="http://use.edgefonts.net/bangers:n4:default;allerta:n4:default.js" type="text/javascript"></script>
+
 </head>
 
 <body>
 <nav>
 	<ul style="">
-		<li class="button_nav"><p>Highlights</p></li>
-		
-		<li class="button_nav"><p>Bronzealder</p></li>
-		
-		<li class="button_nav"><p>Geometrisk</p></li>
-		
-		<li class="button_nav"><p>Arkaisk</p></li>
-		
-		<li class="button_nav"><p>Klassisk</p></li>
-		
-		<li class="button_nav"><p>Hellenistisk</p></li>
-		
-		<li class="button_nav"><p>Romersk</p></li>
-		
-		<li class="button_nav"><p>Syditalisk</p></li>
+		<li id = "button1" class="button_nav pressed-highlights"><p>Highlights</p></li>
+		<li id = "button2" class="button_nav button_nav_grey"><p>Bronzealder</p></li>
+		<li id = "button3" class="button_nav button_nav_grey"><p>Geometrisk</p></li>
+		<li id = "button4" class="button_nav button_nav_grey"><p>Arkaisk</p></li>
+		<li id = "button5" class="button_nav button_nav_grey"><p>Klassisk</p></li>
+		<li id = "button6" class="button_nav button_nav_grey"><p>Hellenistisk</p></li>
+		<li id = "button7" class="button_nav button_nav_grey"><p>Romersk</p></li>
+		<li id = "button8" class="button_nav button_nav_grey"><p>Syditalisk</p></li>
 	</ul>
 </nav>
-<div class="popup"> </div>
+
+<div id = "popup" class="pressed-highlights"> 
+	<h2 class="highlights-txt">HIGHLIGHTS</h2>
+</div>
+
 </body>
 
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script type="text/javascript" src="script/script.js"></script>
-<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
 </html>
