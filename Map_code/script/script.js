@@ -7,8 +7,10 @@ $(function(){
 		else {
 		$('#button1').removeClass ('.button_nav_grey' );
 			rem_color();
-      $(this).addClass('pressed-highlights', 4000);
-        $('#popup').addClass('pressed-highlights', 4000);
+      $(this).addClass('pressed-highlights');
+        $('#popup').addClass('pressed-highlights');
+		map_change();
+		$('#map').addClass("highlights");
     }
 	});
 	
@@ -24,6 +26,8 @@ $(function(){
 			 rem_color(); 
       $(this).addClass('pressed-bronzealder' );
       $('#popup').addClass('pressed-bronzealder');
+			map_change();
+		$('#map').addClass('bronzealder');
     }
 	});
 	
@@ -38,6 +42,8 @@ $(function(){
 			 rem_color(); 
       $(this).addClass('pressed-geometrisk' );
      $('#popup').addClass('pressed-geometrisk');
+			map_change();
+		$('#map').addClass("geometrisk");
     }
 	});
 	
@@ -51,6 +57,8 @@ $(function(){
 			 rem_color(); 
       $(this).addClass('pressed-arkaisk' );
      $('#popup').addClass('pressed-arkaisk');
+			map_change();
+		$('#map').addClass("arkaisk");
     }
 	});
 	
@@ -66,6 +74,8 @@ $(function(){
 			 rem_color(); 
       $(this).addClass('pressed-klassisk' );
      $('#popup').addClass('pressed-klassisk');
+			map_change();
+		$('#map').addClass("klassisk");
     }
 	});
 	
@@ -80,6 +90,8 @@ $(function(){
 			 rem_color(); 
       $(this).addClass('pressed-hellenistisk' );
      $('#popup').addClass('pressed-hellenistisk');
+			map_change();
+		$('#map').addClass("hellenistisk");
     }
 	});
 	
@@ -93,6 +105,8 @@ $(function(){
 			 rem_color(); 
       $(this).addClass('pressed-romersk' );
      $('#popup').addClass('pressed-romersk');
+			map_change();
+		$('#map').addClass("romersk");
     }
 	});
 	
@@ -106,6 +120,8 @@ $(function(){
 			 rem_color(); 
       $(this).addClass('pressed-syditalisk' );
 			$('#popup').addClass('pressed-syditalisk');
+			map_change();
+		$('#map').addClass("syditalisk");
 	
      
     }
@@ -126,6 +142,9 @@ function rem_color(){
 	
 }
 
+function map_change(){
+	$('#map').removeClass();
+}
 
 
 

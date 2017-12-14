@@ -10,15 +10,15 @@
 	}
 
 .button_nav {
-	padding-top: 10px;
+	padding-top: 39px;
 	text-align: center;
-	padding-bottom: 5px;
+	padding-bottom: 19px;
 	float: right;
 	clear: right;
 	width: 100%;
-	-webkit-box-shadow: 0 0 #000000;
-	box-shadow: 0 0 #000000;
-	margin-bottom: 15px;
+	-webkit-box-shadow: 0 4px 20px #000000;
+	box-shadow: 0 4px 20px #000000;
+	margin-bottom: 3px;
 }
 
 .button_nav_grey {
@@ -30,6 +30,13 @@
 
 li {
 	list-style-type: none;
+	color: #FFFFFF;
+	text-shadow: 2px 2px 10px #000000;
+	text-transform: uppercase;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	text-align: left;
 }
 
 
@@ -37,13 +44,28 @@ li {
 ul {
 	float: right;
 	background-color: #787878;
-	margin: 0;
-	height: 65vh;
+	height: 67vh;
+	clear: none;
+	padding-bottom: 5vh;
+	text-align: left;
+	width: 16vw;
+	padding-top: 3vh;
+}
 
-	width: 100px;
-	padding-top: 40px;
+#map {
+	display: block;
+	clear: left;
+	width: 73vw;
+	height: 75vh;
+	margin-left: 5vw;
+}
+nav {
+	width: 16vw;
+	float: right;
 	clear: none;
 }
+
+
 h2 {
 	text-align: center;
 	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
@@ -55,10 +77,10 @@ h2 {
 #popup {
 	width: 100%;
 	overflow-x: hidden;
-	height: 35vh;
+	height: 27vh;
 	display: block;
 	float: right;
-	clear: right;
+	clear: both;
 }
 
 
@@ -105,40 +127,45 @@ h2 {
 
 
 
-.highlights {background-color: #ACACAC;
-	padding-top: 10px;
-	text-align: center;
-	padding-bottom: 5px;
-	float: right;
-	clear: right;
-	width: 100%;
-	-webkit-box-shadow: 0 0 #000000;
-	box-shadow: 0 0 #000000;
-	margin-bottom: 15px;}
+.highlights {
+	background-image: url(file:///D:/skole/Exam_case_2017/Map_code/asssets/maps-01.png);
+	transition: background-image 0.5s ease;
 
-.bronzealder {background-color: #ACACAC;
-	padding-top: 10px;
-	text-align: center;
-	padding-bottom: 5px;
-	float: right;
-	clear: right;
-	width: 100%;
-	-webkit-box-shadow: 0 0 #000000;
-	box-shadow: 0 0 #000000;
-	margin-bottom: 15px;}
+}
 
-.geometrisk {}
+.bronzealder {
+	background-image: url(file:///D:/skole/Exam_case_2017/Map_code/asssets/maps-02.png);
+	transition: background-image 0.5s ease;
+}
 
-.arkaisk {}
+.geometrisk {
+		background-image: url(file:///D:/skole/Exam_case_2017/Map_code/asssets/maps-03.png);
+	transition: background-image 0.5s ease;
+}
 
-.klassisk {}
+.arkaisk {
+		background-image: url(file:///D:/skole/Exam_case_2017/Map_code/asssets/maps-04.png);
+	transition: background-image 0.5s ease;
+}
 
-.hellenistisk {}
+.klassisk {
+		background-image: url(file:///D:/skole/Exam_case_2017/Map_code/asssets/maps-05.png);
+	transition: background-image 0.5s ease;
+}
 
-.romersk {}
+.hellenistisk {
+		background-image: url(file:///D:/skole/Exam_case_2017/Map_code/asssets/maps-06.png);
+	transition: background-image 0.5s ease;
+}
 
-.syditalisk {}
+.romersk {
+		background-image: url(file:///D:/skole/Exam_case_2017/Map_code/asssets/maps-07.png);
+	transition: background-image 0.5s ease;
+}
+
+.syditalisk {
+		background-image: url(file:///D:/skole/Exam_case_2017/Map_code/asssets/maps-08.png);
+	transition: background-image 0.5s ease;
+}
 
 	@media (max-width:768px); 		
-
-
