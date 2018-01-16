@@ -1,0 +1,71 @@
+@charset "utf-8";
+@media (min-width:600px) and (max-width:1200px){
+
+	html, body, ul, nav {
+	padding: 0;
+	margin: 0;
+	overflow-y: hidden;
+	width: 100%;
+	overflow-x: hidden;
+	}
+
+	body {
+	    background-color: #ededed;
+	}
+	.signal {
+    border:3px solid #d3d3d3;
+    border-radius:300px;
+    height:300px;
+    left:30%;
+    margin:-15px 0 0 -15px;
+    opacity:0;
+    position:absolute;
+    top:40%;
+    width:300px;
+
+    animation: pulsate 2s ease-out;
+    animation-iteration-count:infinite;
+  -webkit-transform: translate(-50%, -50%);
+}
+
+@keyframes pulsate {
+    0% {
+      transform:scale(.1);
+      opacity: 0.0;
+    }
+    50% {
+      opacity:1;
+    }
+    100% {
+      transform:scale(1.2);
+      opacity:0;
+    }
+}
+
+	#click-back {
+		position: absolute;
+		height:2000px;
+		text-indent:-9999px;
+		width:1000px;
+	}
+	h1 {
+		font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+		font-size: 70px;
+		font-weight: lighter;
+	 text-align:left;
+	 padding: 0;
+ 	margin-left: 2%;
+	    -webkit-margin-before: 0.1em;
+	}
+
+	p {
+		font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+		font-size: 40px;
+			text-align:left;
+			margin-left: 2%;
+			margin-top: 5%;
+			    -webkit-margin-before: 2.5em;
+			-webkit-margin-after:0;
+	}
+
+}
